@@ -1,4 +1,5 @@
-FROM ubuntu
+# NOTE: Tag "latest" means latest LTS version.
+FROM ubuntu:latest
 
 # Make sure we get a colorful command prompt.
 ENV TERM xterm-color
